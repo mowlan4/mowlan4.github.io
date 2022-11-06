@@ -27,7 +27,7 @@ modalClose.forEach((mc) => {
   mc.addEventListener("click", () => {
     modalViews.forEach((mv) => {
       mv.classList.remove("active-modal");
-      document.getElementsByTagName("body")[0].style = "overflow:hidden";
+      document.getElementsByTagName("body")[0].style = "overflow:auto";
     });
   });
 });
